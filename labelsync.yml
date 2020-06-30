@@ -1,29 +1,33 @@
 # Colors
+# I used this website to get the HEX colors names:
+#   http://chir.ag/projects/name-that-color/#E9E0E0
 colors:
-  area: &area "#FFD700"
-  kind: &kind "#3B5BDB"
-  status: &status "#F8F9FA"
-  bug: &bug "#EE0000"
-  priority: &priority "#F783AC"
-  scope: &scope "#27CF79"
-  team: &team'#FDF4E8'
-  release: &release "#A5D8ff"
-  process: &process' "#EB9100"
+  sunset-orange: &sunset-orange "#ff5050"
+  peach-orange: &peach-orange "#ffd4a0"
+  onahau: &onahau "#c0e6ff"
+  mystic: &mystic "#dfe9e9"
+  turquoise: &turquoise "#41d6c3"
+  medium-purple: &medium-purple "#9855d4"
+  conifer: &conifer'#db2780'
+  cerise: &cerise "#A5D8ff"
+  ebb: &ebb' "#e9e0e0"
+  gold: &gold' "#fad401"
 
 # Labels
 labels: &common
-  "bug/0-needs-info":
-    color: &bug
-    description: More information is needed for reproduction.
-    siblings: ["kind/bug"]
-  "bug/1-repro-available":
-    color: &bug
-    description: A reproduction exists and needs to be confirmed.
-    siblings: ["kind/bug"]
-  "bug/2-confirmed":
-    color: &bug
-    description: We have confirmed that this is a bug.
-    siblings: ["kind/bug"]
+  "blocker":
+    color: &sunset-orange
+  "bug":
+    color: &sunset-orange
+    description: Something isn't working.
+  "hotfix":
+    color: &sunset-orange
+  "cleanup":
+    color: &peach-orange
+  "refactor":
+    color: &peach-orange
+  "technical debt":
+    color: &peach-orange
   "kind/bug":
     color: &bug
     description: A reported bug.
