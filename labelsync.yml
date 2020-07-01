@@ -79,55 +79,39 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   fevrok.ml:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   front-end:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   competetions:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   portfoy:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   admin:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   laravel-search-alert:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
   mail:
     config:
       removeUnconfiguredLabels: true
     labels:
-      {}
-      # <<: *common
-      # Add labels here.
+      <<: *common
