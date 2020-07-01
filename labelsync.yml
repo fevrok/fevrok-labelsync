@@ -1,6 +1,5 @@
 # Colors
-# I used this website to get the HEX colors names:
-#   http://chir.ag/projects/name-that-color/#E9E0E0
+# I used this website to get the HEX colors names: http://chir.ag/projects/name-that-color/#E9E0E0
 colors:
   sunset-orange: &sunset-orange "#ff5050"
   peach-orange: &peach-orange "#ffd4a0"
