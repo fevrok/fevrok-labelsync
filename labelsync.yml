@@ -76,26 +76,26 @@ labels: &default-lables
 repos:
   api:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
   front-end:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
   portfoy:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
   admin:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
   mail:
     config:
-      removeUnconfiguredLabels: true
+      removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
