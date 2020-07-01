@@ -1,6 +1,5 @@
 # Colors
-# I used this website to get the HEX colors names:
-#   http://chir.ag/projects/name-that-color/#E9E0E0
+# I used this website to get the HEX colors names: http://chir.ag/projects/name-that-color/#E9E0E0
 colors:
   sunset-orange: &sunset-orange "#ff5050"
   peach-orange: &peach-orange "#ffd4a0"
@@ -8,7 +7,7 @@ colors:
   mystic: &mystic "#dfe9e9"
   turquoise: &turquoise "#41d6c3"
   medium-purple: &medium-purple "#9855d4"
-  conifer: &conifer '#b4e051'
+  conifer: &conifer "#b4e051"
   cerise: &cerise "#db2780"
   ebb: &ebb "#e9e0e0"
   gold: &gold "#fad401"
@@ -16,62 +15,62 @@ colors:
 # Labels
 labels: &default-lables
   "blocker":
-    color: &sunset-orange
+    color: *sunset-orange
   "bug":
-    color: &sunset-orange
+    color: *sunset-orange
     description: Something isn't working.
   "hotfix":
-    color: &sunset-orange
+    color: *sunset-orange
   "cleanup":
-    color: &peach-orange
+    color: *peach-orange
   "refactor":
-    color: &peach-orange
+    color: *peach-orange
   "technical debt":
-    color: &peach-orange
+    color: *peach-orange
   "documentation":
-    color: &onahau
+    color: *onahau
     description: Improvements or additions to documentation.
   "duplicate":
-    color: &mystic
+    color: *mystic
     description: This issue or pull request already exists.
   "invalid":
-    color: &mystic
+    color: *mystic
     description: This doesn't seem right.
   "on hold":
-    color: &mystic
+    color: *mystic
   "wontfix":
-    color: &mystic
+    color: *mystic
     description: This will not be worked on.
   "enhancement":
-    color: &turquoise
+    color: *turquoise
     description: New feature or request.
   "optimization":
-    color: &turquoise
+    color: *turquoise
   "epic":
-    color: &medium-purple
+    color: *medium-purple
   "feature":
-    color: &conifer
-  "help wanted":
-    color: &cerise
+    color: *conifer
+  "help-wanted":
+    color: *cerise
     description: Extra attention is needed.
   "prototype":
-    color: &cerise
+    color: *cerise
   "question":
-    color: &cerise
+    color: *cerise
     description: Further information is requested.
-  "ready for review":
-    color: &cerise
+  "ready-for-review":
+    color: *cerise
   "local":
-    color: &ebb
+    color: *ebb
     description: Local environment.
   "production":
-    color: &ebb
+    color: *ebb
     description: Production environment.
   "staging":
-    color: &ebb
+    color: *ebb
     description: Staging environment.
-  "under consideration":
-    color: &gold
+  "under-consideration":
+    color: *gold
 
 # Repositories
 repos:
@@ -91,11 +90,6 @@ repos:
     labels:
       <<: *default-lables
   admin:
-    config:
-      removeUnconfiguredLabels: true
-    labels:
-      <<: *default-lables
-  mail:
     config:
       removeUnconfiguredLabels: true
     labels:
