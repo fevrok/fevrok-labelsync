@@ -94,8 +94,3 @@ repos:
       removeUnconfiguredLabels: false
     labels:
       <<: *default-lables
-  mail:
-    config:
-      removeUnconfiguredLabels: false
-    labels:
-      <<: *default-lables
