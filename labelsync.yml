@@ -10,8 +10,8 @@ colors:
   medium-purple: &medium-purple "#9855d4"
   conifer: &conifer '#b4e051'
   cerise: &cerise "#db2780"
-  ebb: &ebb' "#e9e0e0"
-  gold: &gold' "#fad401"
+  ebb: &ebb "#e9e0e0"
+  gold: &gold "#fad401"
 
 # Labels
 labels: &common
