@@ -50,7 +50,7 @@ labels: &default-lables
     color: &medium-purple
   "feature":
     color: &conifer
-  "help wanted":
+  "help-wanted":
     color: &cerise
     description: Extra attention is needed.
   "prototype":
@@ -58,7 +58,7 @@ labels: &default-lables
   "question":
     color: &cerise
     description: Further information is requested.
-  "ready for review":
+  "ready-for-review":
     color: &cerise
   "local":
     color: &ebb
@@ -69,7 +69,7 @@ labels: &default-lables
   "staging":
     color: &ebb
     description: Staging environment.
-  "under consideration":
+  "under-consideration":
     color: &gold
 
 # Repositories
