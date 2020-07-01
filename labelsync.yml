@@ -15,62 +15,62 @@ colors:
 # Labels
 labels: &default-lables
   "blocker":
-    color: &sunset-orange
+    color: *sunset-orange
   "bug":
-    color: &sunset-orange
+    color: *sunset-orange
     description: Something isn't working.
   "hotfix":
-    color: &sunset-orange
+    color: *sunset-orange
   "cleanup":
-    color: &peach-orange
+    color: *peach-orange
   "refactor":
-    color: &peach-orange
+    color: *peach-orange
   "technical debt":
-    color: &peach-orange
+    color: *peach-orange
   "documentation":
-    color: &onahau
+    color: *onahau
     description: Improvements or additions to documentation.
   "duplicate":
-    color: &mystic
+    color: *mystic
     description: This issue or pull request already exists.
   "invalid":
-    color: &mystic
+    color: *mystic
     description: This doesn't seem right.
   "on hold":
-    color: &mystic
+    color: *mystic
   "wontfix":
-    color: &mystic
+    color: *mystic
     description: This will not be worked on.
   "enhancement":
-    color: &turquoise
+    color: *turquoise
     description: New feature or request.
   "optimization":
-    color: &turquoise
+    color: *turquoise
   "epic":
-    color: &medium-purple
+    color: *medium-purple
   "feature":
-    color: &conifer
+    color: *conifer
   "help-wanted":
-    color: &cerise
+    color: *cerise
     description: Extra attention is needed.
   "prototype":
-    color: &cerise
+    color: *cerise
   "question":
-    color: &cerise
+    color: *cerise
     description: Further information is requested.
   "ready-for-review":
-    color: &cerise
+    color: *cerise
   "local":
-    color: &ebb
+    color: *ebb
     description: Local environment.
   "production":
-    color: &ebb
+    color: *ebb
     description: Production environment.
   "staging":
-    color: &ebb
+    color: *ebb
     description: Staging environment.
   "under-consideration":
-    color: &gold
+    color: *gold
 
 # Repositories
 repos:
