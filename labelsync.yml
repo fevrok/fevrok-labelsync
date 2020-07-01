@@ -14,7 +14,7 @@ colors:
   gold: &gold "#fad401"
 
 # Labels
-labels: &common
+labels: &default-lables
   "blocker":
     color: &sunset-orange
   "bug":
@@ -79,39 +79,39 @@ repos:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   fevrok.ml:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   front-end:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   competetions:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   portfoy:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   admin:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   laravel-search-alert:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
   mail:
     config:
       removeUnconfiguredLabels: true
     labels:
-      <<: *common
+      <<: *default-lables
