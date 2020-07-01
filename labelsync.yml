@@ -80,17 +80,7 @@ repos:
       removeUnconfiguredLabels: true
     labels:
       <<: *default-lables
-  fevrok.ml:
-    config:
-      removeUnconfiguredLabels: true
-    labels:
-      <<: *default-lables
   front-end:
-    config:
-      removeUnconfiguredLabels: true
-    labels:
-      <<: *default-lables
-  competetions:
     config:
       removeUnconfiguredLabels: true
     labels:
@@ -101,11 +91,6 @@ repos:
     labels:
       <<: *default-lables
   admin:
-    config:
-      removeUnconfiguredLabels: true
-    labels:
-      <<: *default-lables
-  laravel-search-alert:
     config:
       removeUnconfiguredLabels: true
     labels:
