@@ -7,7 +7,7 @@ colors:
   mystic: &mystic "#dfe9e9"
   turquoise: &turquoise "#41d6c3"
   medium-purple: &medium-purple "#9855d4"
-  conifer: &conifer '#b4e051'
+  conifer: &conifer "#b4e051"
   cerise: &cerise "#db2780"
   ebb: &ebb "#e9e0e0"
   gold: &gold "#fad401"
